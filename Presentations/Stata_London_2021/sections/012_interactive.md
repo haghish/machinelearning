@@ -5,12 +5,9 @@
 
 - R code can be executed within Stata do-file editor
     - `rcall [mode] [:] [R-command]` 
-- in `rcall 3.0`, the `mode` argument can be 
-    - __vanilla__ for non-interactive session
-	- for interactive session, no _mode_ is required
-	- the _sync_ mode is removed in `rcall` version 3
 - When using `rcall` interactively, __ALWAYS__ start a new R session
     - type: `rcall clear` to start a fresh session
+- Execute the R commands one after another, as if you are working in R
 
 # Example 1
 ## Loading `credit.csv` dataset from R to Stata
@@ -55,6 +52,11 @@ rcall: st.load(df)
 - confusion matrix of the training dataset
 
 ![Preparing the data for C5](./images/c5_3.png)
+
+- - - 
+
+![Printing the model](./images/printmodel.png)
+
 
 # Predicting the test dataset
 
@@ -112,3 +114,4 @@ actual default no yes
 ![executing it in Stata](./images/alternative_execution.png)
 
 
+Using rcall from Stata

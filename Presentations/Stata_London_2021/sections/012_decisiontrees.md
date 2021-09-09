@@ -25,7 +25,7 @@
 - general purpose classifier
 - well on most problems
 - offer automatic learning process
-- can work with different types 
+- can work with different types of data
 - can handle missing data
 - can work on different sample sizes
 - highly interpretable 
