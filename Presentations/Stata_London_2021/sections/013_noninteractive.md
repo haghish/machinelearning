@@ -1,0 +1,59 @@
+# Part 4: using `rcall` for writing Stata packages
+
+# Stata programming with `rcall` 
+
+- `rcall` allows embedding R code inside Stata programs
+- It also provides a strict procedures for executing the computation
+    - checking for required dependencies (R version, versions of R packages)
+	- making sure the analysis is reproducible, by starting a new R environment
+	- providing tools for checking required Stata dependencies and `rcall` version
+- Programming with `rcall` is best practiced if Stata syntax is adopted
+
+# Example Stata programs utilizing `rcall` 
+
+- examples in the manuscript: [Seamless interactive language interfacing between R and Stata](https://journals.sagepub.com/doi/10.1177/1536867X19830891)
+- example packages written by the community
+	- type __`github search rcall, all in(all)`__
+
+# `github search rcall, all in(all)` 
+
+![Stata packages based on `rcall` ](./images/githubsearchrcall.png)
+
+
+# Example 1: Loading data from CSV file 
+
+![example program for loading CSV files in Stata](./images/rdata.png)
+
+~~~
+//import delimited "credit.csv",  clear
+rdata using "credit.csv", stringsasfactor
+~~~
+
+
+# Is R installed? What R version is needed?
+
+![example program for loading CSV files in Stata](./images/rdata2.png)
+
+# What if error occurs?
+
+![example program for loading CSV files in Stata](./images/rdata3.png)
+
+# Package versions & returning objects to Stata?
+
+- you can specify a particular package version or a minimum version for dependencies
+- check the version of the dependencies using `packageVersion("pkgname")` function
+
+~~~
+. R: packageVersion("C50")
+[1] ‘0.1.5’
+~~~
+
+- The `rcall_check` command can examine the required package dependencies as well
+- `rcall` automatically returns objects from R to Stata function
+    - include the `return add` command to pass the objects to the mother enviornment
+
+- - - 
+
+![example package with strict package version](./images/c5.png)
+![returning the results to Stata](./images/c5_results.png)
+

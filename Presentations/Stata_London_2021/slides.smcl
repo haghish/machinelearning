@@ -1,0 +1,9 @@
+{smcl}
+{com}{sf}{ul off}{txt}
+{com}. //IMPORT ./sections/011_about.md
+. //IMPORT ./sections/012_decisiontrees.md
+. //IMPORT ./sections/012_interactive.md
+. //IMPORT ./sections/013_noninteractive.md
+. qui log c
+{smcl}
+{com}{sf}{ul off}
