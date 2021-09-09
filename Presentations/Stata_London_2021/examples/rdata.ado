@@ -1,7 +1,7 @@
 // Don't use this program at home! This is an example for loading data
 //     from R to Stata
 // -------------------------------------------------------------------
-cap prog drop rdata
+
 program define rdata
   version 14
   syntax using/ , [stringsasfactor] 

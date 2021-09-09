@@ -31,10 +31,13 @@
 
 ## Machine learning (ML) examples
 - Solely focus on decision trees, using `C5` algorithm
-- Machine learning with R
+- Machine learning with R, Brett Lantz
 - <https://www.packtpub.com/product/machine-learning-with-r-third-edition/9781788295864>
 
 # Notes 
+
+## Download the presentation, code, and data
+- <https://github.com/haghish/machinelearning>
 
 ## `R` is `rcall`'s abbreviation
 - `rcall` command can be abbreviated as `R`
@@ -57,6 +60,11 @@
 - Definition
     - facilitate communication between programs written in different languages
 	- facilitate sharing objects between programs
+	- Interfacing is __different from automation__
+	- We can write a script to execute multiple instructions:
+	- e.g. Calling MPlus, R, Stata from shell script 
+	- Stata supports executing shell script and automation
+	- Interfacing typically allows __object communication__
 - Popularity
     - Saving resources
 	- Avoiding _reinventing the wheel_ 
@@ -67,11 +75,7 @@
 
 # Language interfacing for statistical analysis
 
-- Interfacing is __different from automation__
-    - We can write a script to execute multiple instructions:
-	- e.g. Calling MPlus, R, Stata from shell script 
-	- Stata supports executing shell script and automation
-	- Interfacing typically allows __object communication__
+
 - Interfacing is common in computer sciences
     - e.g. running a Java library within Python
 	- e.g. running C++ within an R program to execute a loop  

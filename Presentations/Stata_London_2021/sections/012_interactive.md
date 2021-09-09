@@ -110,3 +110,5 @@ actual default no yes
 
 ![creating and R script for the analysis](./images/alternative.png)
 ![executing it in Stata](./images/alternative_execution.png)
+
+
