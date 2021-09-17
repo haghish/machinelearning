@@ -1,10 +1,6 @@
 credit <- read.csv("credit.csv", stringsAsFactors = TRUE)
 credit$default <- as.factor(credit$default)
 
-library(randomForest)
-set.seed(300)
-rf <- randomForest(default ~ ., data = credit)
-rf
 
 
 library(caret)
