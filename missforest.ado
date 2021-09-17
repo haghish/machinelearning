@@ -6,30 +6,28 @@
 
 /***
 [Version: 0.0.2](https://github.com/haghish/machinelearning/tags) 
-cite: [Haghish, E. F. (2021). rcall for all: machine-learning tutorials for Stata users and developers. 
+cite: [Haghish, E. F. (2021). rcall for all: machine-learning tutorials for Stata users and developers](https://github.com/haghish/machinelearning)
 
-rcall
-=====
-seamless interactive __[R](https://cran.r-project.org/)__ in Stata.
-The command automatically returns {help return:rclass} R objects with
-_integer_, _numeric_, _character_, _logical_, _matrix_, _data.frame_, _list_, and _NULL_
-classes to Stata. It also allows passing Stata variable, dataset,
-macro, scalar, and matrix to R as well as load a dataframe from R
-to Stata automatically,
-which provides an automated reciprocal communication between Stata and R. 
-in addition to robust automated data communication between Stata and R, __rcall__ also 
-includes several modes for integrating R into Stata, including:
-1. __interactive__: executing R code within Stata do-file editor (allowing reproducible data analysis practice)
-2. __console__: simulating R console within Stata console for interactive exploratory analysis
-3. __vanilla__: embedding R base function and R packages within Stata programs defensively
-for more information and examples visit [rcall homepage](http://www.haghish.com/packages/Rcall.php) and 
-its [GitHub repository](https://github.com/haghish/rcall). note that __rcall__ is only 
-hosted on GitHub and must be installed using the [github command](https://github.com/haghish/github).
+missforest
+==========
+
+imputing missing data with Random Forest. this command utilizes the 
+__missForest__ package from __R__ and embeds it in a __Stata__ program
+using [__rcall__](https://github.com/haghish/rcall) package (Haghish, 2019). 
+The __missforest__ is a powerful command for __EASILY__ imputing missing 
+data. 
+
+more importantly, the command is also meant to be a tutorial for Stata developers, 
+showing how to embed __R__ into __Stata__ and how to document __Stata__ packages 
+with _Markdown_ language, using [markdoc package](https://github.com/haghish/markdoc) 
+package. [visit the project on github and have a look at the source code](https://github.com/haghish/machinelearning)! 
+
+__Join the Resistance!__ Fork this [repository](https://github.com/haghish/machinelearning) on GitHub and contribute to its development or documentation. 
 
 Syntax
 ------
 
-under development!
+The Syntax is under development!
         
 Description
 ===========
@@ -57,11 +55,6 @@ which provides the OOB error estimation for each imputed variable:
         . return list
         . matrix list r(oob)
 
-Visit [machinelearning homepage](https://github.com/haghish/machinelearning) for more examples and
-documentation. 
-
-__Feel freevto fork this repository on GitHub and contribute to its development or documentation__. 
-
 Author
 ------
 
@@ -69,7 +62,7 @@ __E. F. Haghish__
 Department of Psychology  
 University of Oslo  
 haghish@uio.no  
-[machinelearning homepage](https://github.com/haghish/machinelearning) 
+[machinelearning homepage](https://github.com/haghish/machinelearning)   
 Package Updates on [Twitter](http://www.twitter.com/Haghish)  
 
 - - -
