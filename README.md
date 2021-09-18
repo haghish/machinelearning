@@ -12,11 +12,14 @@ __R__-based Stata packages, I suggest you to read the following articles. These 
 to embed __R__ code in __Stata__, write easy-to-read and elegant software documentation, and host your packages
 on GitHub. 
 
-![#f03c15](https://via.placeholder.com/10/FFA500/000000?text=+) Haghish, E. F. (2019). [Seamless interactive language interfacing between R and Stata](https://journals.sagepub.com/doi/10.1177/1536867X19830891). The Stata Journal. 2019;19(1):61-82.
+![#f03c15](https://via.placeholder.com/10/FFA500/000000?text=+) Haghish, E. F. (2019). [Seamless interactive language interfacing between R and Stata](https://journals.sagepub.com/doi/10.1177/1536867X19830891).  
+The Stata Journal. 2019;19(1):61-82.
 
-![#f03c15](https://via.placeholder.com/10/FFA500/000000?text=+) Haghish, E. F. (2020). [Software documentation with markdoc 5.0](https://journals.sagepub.com/doi/full/10.1177/1536867X20931000). The Stata Journal. 2020;20(2):336-362.
+![#f03c15](https://via.placeholder.com/10/FFA500/000000?text=+) Haghish, E. F. (2020). [Software documentation with markdoc 5.0](https://journals.sagepub.com/doi/full/10.1177/1536867X20931000).  
+The Stata Journal. 2020;20(2):336-362.
 
-![#f03c15](https://via.placeholder.com/10/FFA500/000000?text=+) Haghish, E. F. (2020). [Developing, maintaining, and hosting Stata statistical software on GitHub](https://journals.sagepub.com/doi/10.1177/1536867X20976323?icid=int.sj-full-text.similar-articles.1). The Stata Journal. 2020;20(4):931-951.
+![#f03c15](https://via.placeholder.com/10/FFA500/000000?text=+) Haghish, E. F. (2020). [Developing, maintaining, and hosting Stata statistical software on GitHub](https://journals.sagepub.com/doi/10.1177/1536867X20976323?icid=int.sj-full-text.similar-articles.1).  
+The Stata Journal. 2020;20(4):931-951.
 
 Description
 -----------
