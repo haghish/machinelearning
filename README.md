@@ -32,11 +32,13 @@ Stata using [`rcall`](https://github.com/haghish/rcall) package. The reason for 
   + document Stata _Ado programs_ with Markdown language using [`MarkDoc`](https://github.com/haghish/markdoc) literate programming package 
   + build Stata package using [`MarkDoc`](https://github.com/haghish/markdoc)
 
-Therefore, while the majority of users will install this package to use the machine learning algorithms, advanced Stata 
-users are invited to read the code and see how the documentation is implemented within the Stata code. 
-
 Installation
 ------------
 
-Work in progress 
+The [__`github package`__](https://github.com/haghish/github) is the only recommended way for installing **`machinelearning`**. Once [__`github`__](https://github.com/haghish/github) is installed, you can install the development version of the package as follows. Currently, the package is _work-in-progress_ 
+and there is no stable release yet. 
+
+```js
+github install haghish/machinelearning
+```
 
