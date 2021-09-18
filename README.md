@@ -2,10 +2,9 @@ Integrating R machine learning algorithms in Stata using rcall 3.0: a tutorial f
 ===============
 
 ![#f03c15](https://via.placeholder.com/20/FFA500/000000?text=+) __Citation__: 
-```diff
-Haghish, E. F. (in preparation). Integrating R machine learning algorithms in Stata using rcall 3.0: 
+> Haghish, E. F. (in preparation). Integrating R machine learning algorithms in Stata using rcall 3.0: 
 a tutorial for Stata users and developers
-```
+
 
 If you interested in reading the source code of this package, contributing to this project, or develop your own 
 __R__-based Stata packages, I suggest you to read the following articles. These articles provide the background 
