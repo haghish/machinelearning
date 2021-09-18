@@ -1,0 +1,10 @@
+v 0.0.2
+d 'MACHINELEARNING': seamless R in Stata
+d 
+d ntegrating R machine learning algorithms in Stata using rcall 3.0: a tutorial for Stata users and developers
+d 
+d Distribution-Date:   20210918
+d License: MIT
+d 
+F missforest
+F missforest.ado

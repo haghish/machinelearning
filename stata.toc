@@ -1,0 +1,8 @@
+v 0.0.2
+d Materials by E. F. Haghish
+d haghish@uio.no
+d http://github.com/haghish
+
+d 'machinelearning': ntegrating R machine learning algorithms in Stata using rcall 3.0: a tutorial for Stata users and developers
+
+p machinelearning
