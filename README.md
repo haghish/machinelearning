@@ -20,6 +20,16 @@ The Stata Journal. 2020;20(2):336-362.
 ![#f03c15](https://via.placeholder.com/10/FFA500/000000?text=+) Haghish, E. F. (2020). [Developing, maintaining, and hosting Stata statistical software on GitHub](https://journals.sagepub.com/doi/10.1177/1536867X20976323?icid=int.sj-full-text.similar-articles.1).  
 The Stata Journal. 2020;20(4):931-951.
 
+How to get started?
+-------------------
+
+1. Each program is written in a seperate _ADO_ file, named after the program. 
+2. The _Markdown_ documentation of each program is written within the script file. 
+3. The __make.do__ file is the package generator file. It's a program installed with [__`github package`__](https://github.com/haghish/github)
+4. The __make.do__ also generates the Stata help files, Markdown help files (for GitHub Wiki), and the PDF package Vignette
+5. All of these documents are generated with [`MarkDoc`](https://github.com/haghish/markdoc) literate programming package
+6. You will find the package vignette template in __vignette.do__ file
+
 Description
 -----------
 
