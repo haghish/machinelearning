@@ -26,7 +26,7 @@ How to get started?
 1. Each program is written in a seperate _ADO_ file, named after the program. 
 2. The _Markdown_ documentation of each program is written within the script file. 
 3. The __make.do__ file is the package generator file. It's a program installed with [__`github package`__](https://github.com/haghish/github)
-4. The __make.do__ also generates the Stata help files, Markdown help files (for GitHub Wiki), and the PDF package Vignette
+4. The __make.do__ also generates Stata help files, Markdown help files (for GitHub Wiki), and PDF package Vignette
 5. All of these documents are generated with [`MarkDoc`](https://github.com/haghish/markdoc) literate programming package
 6. You will find the package vignette template in __vignette.do__ file
 
