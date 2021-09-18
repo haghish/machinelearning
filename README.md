@@ -1,7 +1,11 @@
 machinelearning
 ===============
 
-> __CITE: Haghish, E. F. (in preparation). Integrating R machine learning algorithms in Stata using rcall 3.0: a tutorial for Stata users and developers__
+![#f03c15](https://via.placeholder.com/15/FFA500/000000?text=+) __Citation__: 
+```diff
+Haghish, E. F. (in preparation). Integrating R machine learning algorithms in Stata using rcall 3.0: 
+a tutorial for Stata users and developers
+```
 
 Description
 -----------
