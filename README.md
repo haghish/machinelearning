@@ -52,3 +52,14 @@ and there is no stable release yet.
 github install haghish/machinelearning
 ```
 
+Programs
+========
+
+`missforest`: Missing data imputation with Random Forest 
+--------------------------------------------------------
+
+`missforst` embeds the [missForest](https://cran.r-project.org/web/packages/missForest/index.html) R package in Stata. 
+This is a very simple - yet very powerful - missing data imputation that can provide unbised Out Of Bag (OOB) 
+error estimation for each variable. Load your dataset in Stata and call the command! The imputed data will 
+be loaded automatically in Stata once the imputaion is done. 
+[continue reading on GitHub Wiki ...](https://github.com/haghish/machinelearning/wiki/missforest)
