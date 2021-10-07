@@ -2,6 +2,7 @@
 // Documentation written for markdoc package: https://github.com/haghish/markdoc 
 // To export STHLP file, RUN THE FOLLOWING COMMAND: 
 //     . markdoc knn.ado, export(sthlp) replace 
+//     . mmarkdoc knn.ado, export(md) replace mini  //for GitHub Wiki documentation
 // =========================================================================
 
 /***
