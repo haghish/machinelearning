@@ -20,6 +20,13 @@ The Stata Journal. 2020;20(2):336-362.
 ![#f03c15](https://via.placeholder.com/10/FFA500/000000?text=+) Haghish, E. F. (2020). [Developing, maintaining, and hosting Stata statistical software on GitHub](https://journals.sagepub.com/doi/10.1177/1536867X20976323?icid=int.sj-full-text.similar-articles.1).  
 The Stata Journal. 2020;20(4):931-951.
 
+What is this repository about? 
+------------------------------
+
+The title of the repository reads __machne learning__, but this repository is much more than just a machine learning repository. It's a place for learning advanced - but simple - Stata programming using __rcall__ and __markdoc__. __rcall__ is the main engine of the package, used for embedding R machine learning packages in Stata programs. __markdoc__ plays a central role in software documentation... [to be continued]
+
+![](diagram.png)
+
 How to get started?
 -------------------
 
