@@ -63,3 +63,12 @@ This is a very simple - yet very powerful - missing data imputation that can pro
 error estimation for each variable. Load your dataset in Stata and call the command! The imputed data will 
 be loaded automatically in Stata once the imputaion is done. 
 [continue reading on GitHub Wiki ...](https://github.com/haghish/machinelearning/wiki/missforest)
+
+`kNN`: Missing data imputation with kNN algorithm 
+--------------------------------------------------------
+
+Missing values are inseperable parts of large datasets. However, the larger the data, daily imputation methods 
+such as multiple imputation and even faster variations, such as Random Forest imputation is less feasible or 
+infeasible. This is when faster algorithms shine, especially __kNN__. This package includes a Stata program 
+that implements the __kNN__ algorithm using using [`rcall`](https://github.com/haghish/rcall). [continue reading on GitHub Wiki ...](https://github.com/haghish/machinelearning/wiki/knn)
+
