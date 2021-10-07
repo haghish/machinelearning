@@ -2,7 +2,7 @@
 // Documentation written for markdoc package: https://github.com/haghish/markdoc 
 // To export STHLP file, RUN THE FOLLOWING COMMAND: 
 //     . markdoc knn.ado, export(sthlp) replace 
-//     . mmarkdoc knn.ado, export(md) replace mini  //for GitHub Wiki documentation
+//     . markdoc knn.ado, export(md) replace mini  //for GitHub Wiki documentation
 // =========================================================================
 
 /***
@@ -67,8 +67,8 @@ dependencies within Stata
 Example
 -------
 
-Here is an example of doing missing data imputation with the _variablewise_ option,
-which provides the OOB error estimation for each imputed variable:
+Here is an example of doing missing data imputation with __knn__. The imputed
+dataset will be loaded in Stata automatically.
 
 _example 1_
 

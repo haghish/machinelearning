@@ -68,8 +68,8 @@ dependencies within Stata
 {title:Example}
 
 {p 4 4 2}
-Here is an example of doing missing data imputation with the {it:variablewise} option,
-which provides the OOB error estimation for each imputed variable:
+Here is an example of doing missing data imputation with {bf:knn}. The imputed
+dataset will be loaded in Stata automatically.
 
 {p 4 4 2}
 {it:example 1}
