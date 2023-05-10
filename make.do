@@ -10,7 +10,7 @@ make machinelearning, replace toc pkg  version(0.0.2)                       ///
      url("http://github.com/haghish")                                       ///
      title("seamless R in Stata")                                           ///
      description("Integrating R machine learning algorithms in Stata using rcall 3.0: a tutorial for Stata users and developers") ///
-     install("missforest.ado;missforest;")                                  ///
+     install("missforest.ado;knn.ado;")                                  ///
      ancillary("")                                                        
      
 
